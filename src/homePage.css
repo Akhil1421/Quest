@@ -1,0 +1,12 @@
+.home{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap : 2rem;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}

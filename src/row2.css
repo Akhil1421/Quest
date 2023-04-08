@@ -1,0 +1,11 @@
+img{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.row2{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    place-content: center;
+}
+
