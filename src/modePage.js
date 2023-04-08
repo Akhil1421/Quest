@@ -6,6 +6,11 @@ import { modeLessThan5km,  modeLessThan10km ,modeLessThan15km,
         modeLessThan20km , modeLessThan25km, modeMoreThan25km} from "./modesData";
 import RowOne from "./Row1";
 import RowTwo from "./Row2";
+import RowThird from "./Row3";
+import RowFourth from "./Row4";
+import RowFifth from "./Rowfifth";
+import RowSixth from "./RowSixth";
+import RowSeventh from "./RowSeven";
 
 const Mode = ()=>{
     const {choice1, choice2} = useContext(ChoicesContext)
@@ -116,6 +121,11 @@ const Mode = ()=>{
             <div className="mode">
                 <RowOne modes = {modes}/>
                 <RowTwo modes = {modes}/>
+                <RowThird modes = {modes}/>
+                <RowFourth modes = {modes}/>
+                <RowFifth modes = {modes}/>
+                <RowSixth modes = {modes}/>
+                <RowSeventh modes = {modes}/>
             </div>
     )
 }

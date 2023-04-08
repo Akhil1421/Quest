@@ -1,8 +1,10 @@
 .row{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 7rem / 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.2rem;
 }
 .Mode{
     display: grid;
     place-content: center;
+    border: rgb(60, 255, 0) solid;
 }

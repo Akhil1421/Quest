@@ -1,6 +1,6 @@
 img{
     max-width: 2rem;
-    max-height: 2rem;
+    max-height: 3rem;
 }
 
 .row2{
@@ -9,3 +9,14 @@ img{
     place-content: center;
 }
 
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full{
+    display: grid;
+    grid-template: 7rem/1fr;
+    place-content: center;
+    /* padding-top : 0.4rem; */
+}
