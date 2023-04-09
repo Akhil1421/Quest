@@ -1,5 +1,7 @@
 import {React} from "react";
 const RowFifth = (props)=>{
+    //We use the array of different modes provided through props to this component to display cost
+    //Each mode from props has Cost property which is used here
     const costs= props.modes.map((mode,index)=>{
         let colors = ["#e9d1cf", "#e6e8b2", "#c4daae", "#dad6f5", "#cde2e7"]
         return (

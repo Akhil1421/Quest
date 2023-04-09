@@ -1,6 +1,10 @@
 import {React} from "react";
 const RowFourth = (props)=>{
-    const delay = props.modes.map((mode,index)=>{
+    //We use the array of modes provided by props to display delay due to traffic 
+    
+    //Each mode from props has delayDueToOutside property which is used here
+    
+    const delay = props.modes.map((mode,index)=>{        
         let colors = ["#e9d1cf", "#e6e8b2", "#c4daae", "#dad6f5", "#cde2e7"]
         return (
             <div className="delay" key={`delay${index}`} style={{display: "flex", 
