@@ -26,7 +26,7 @@ const RowSeventh = (props)=>{
             placeContent: "center", background : colors[index],color : "crimson"}}>
 
                 <div className="logos">
-                    {img!=="" && <img src="sitting.png" alt="photoS" style={{height: "4rem", width: "4rem"}}/>}
+                    {img!=="" && <img src="sitting.png" alt="photoS"/>}
                     {img==="Express AC" && <img src="freezer.png" alt="freezer"/>} 
                 </div>
                 
