@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Quest/static/css/main.416d593e.css",
-    "main.js": "/Quest/static/js/main.b70318b1.js",
+    "main.js": "/Quest/static/js/main.e1aa4659.js",
     "index.html": "/Quest/index.html",
     "main.416d593e.css.map": "/Quest/static/css/main.416d593e.css.map",
-    "main.b70318b1.js.map": "/Quest/static/js/main.b70318b1.js.map"
+    "main.e1aa4659.js.map": "/Quest/static/js/main.e1aa4659.js.map"
   },
   "entrypoints": [
     "static/css/main.416d593e.css",
-    "static/js/main.b70318b1.js"
+    "static/js/main.e1aa4659.js"
   ]
 }
