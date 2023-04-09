@@ -42,3 +42,15 @@ button:hover{
     display: flex;
     gap: 0.1rem;
 }
+
+@media screen and (max-width : 768){
+    .questions{
+        font-size: 1rem;
+    }    
+    .btns{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+          
+}
