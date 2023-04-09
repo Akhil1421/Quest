@@ -6,5 +6,5 @@
 .Mode{
     display: grid;
     place-content: center;
-    border: rgb(60, 255, 0) solid;
+    border: rgb(0, 255, 213) solid;
 }

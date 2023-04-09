@@ -2,7 +2,7 @@ import {React} from "react";
 import "./row2.css"
 const RowSixth = (props)=>{
     let crowdImg = props.modes.map((mode,index)=>{
-        let colors = ["brown", "#e32636", "#e52b50", "#ff033e", "#cd9575"]
+        let colors = ["#e9d1cf", "#e6e8b2", "#c4daae", "#dad6f5", "#cde2e7"]
         let crowds = ["Many Seats Available", "Some Seats Available", "All Seats Occupied : standing space available",
                        "Fully Crowded or packed"]
         let images = ["less.png","standing.png","small.png","full.png"]
@@ -21,20 +21,22 @@ const RowSixth = (props)=>{
         }
         
         return (
-            <div className="crowd" key={`Crowd${index}`} style={{display: "flex", 
-            justifyContent: "center", alignItems: "center", background : colors[index], color : "whitesmoke", height: "7rem"}}>
-                <div className="images" style={{display: "flex"}}>
+            <div className="crowd" key={`Crowd${index}`} style={{display: "grid", 
+            placeContent: "center", background : colors[index], color : "crimson", height: "7rem",
+            border: "rgb(0, 255, 213) solid"}}>
+                <div className="logos">
                 {image!=="" && <img src={image} alt="photoS"/>}
                 {mode.crowd===4 && <img src={images[1]} alt="standing"></img>}
                 </div>
-                <div>{crowds[mode.crowd-1]}</div>
+                <div>
+                    <center>    {crowds[mode.crowd-1]}   </center>
+                </div>
             </div>
         )
     })
     return(
         <div className="Row2">
-            <div style={{display: "grid", placeContent: "center",color : "goldenrod", background :"brown",
-                         border : "rgb(60, 255, 0) solid", marginTop: "0.2rem"}}>
+            <div className="heading">
                 Extent of Crowding in the vehicle
             </div>
             <div className="row2">

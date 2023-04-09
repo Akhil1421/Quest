@@ -118,7 +118,7 @@ const Mode = ()=>{
     }
     
     return(
-            <div className="mode">
+            <div className="mode" style={{fontFamily : "Calibri"}}>
                 <RowOne modes = {modes}/>
                 <RowTwo modes = {modes}/>
                 <RowThird modes = {modes}/>

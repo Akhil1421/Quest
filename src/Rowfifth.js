@@ -1,22 +1,22 @@
 import {React} from "react";
 const RowFifth = (props)=>{
     const costs= props.modes.map((mode,index)=>{
-        let colors = ["brown", "#e32636", "#e52b50", "#ff033e", "#cd9575"]
+        let colors = ["#e9d1cf", "#e6e8b2", "#c4daae", "#dad6f5", "#cde2e7"]
         return (
             <div className="delay" key={`Cost${index}`} style={{display: "flex", 
-            justifyContent: "center", alignItems: "center", background : colors[index], color : "whitesmoke"}}>
+            justifyContent: "center", alignItems: "center", background : colors[index], color : "crimson",
+            border: "rgb(0, 255, 213) solid"}}>
                     {mode.cost}
             </div>
         )
     })
 
     return(
-        <div className="Row5">
-            <div style={{display: "grid", placeContent: "center",color : "goldenrod", background :"brown",
-                         border : "rgb(60, 255, 0) solid", marginTop: "0.2rem"}}>
+        <div className="Row2">
+            <div className="heading">
                Total One way cost of travel
             </div>
-            <div className="row5" style={{display: "grid", gridTemplate : "7rem/1fr 1fr 1fr 1fr 1fr"}}>
+            <div className="row5" style={{display: "grid", marginTop: "0.2rem", gridTemplate : "7rem/1fr 1fr 1fr 1fr 1fr", gap: "0.2rem"}}>
                 {costs}
             </div>
         </div>

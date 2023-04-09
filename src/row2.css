@@ -7,6 +7,8 @@ img{
     display : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     place-content: center;
+    gap: .2rem;
+    margin-top: 0.2rem;
 }
 
 .logos{
@@ -18,5 +20,14 @@ img{
     display: grid;
     grid-template: 7rem/1fr;
     place-content: center;
-    /* padding-top : 0.4rem; */
+    border: rgb(0, 255, 213) solid;
+}
+
+.heading{
+    display: grid;
+    place-content: center;
+    color : goldenrod;
+    background :brown;
+    border : rgb(0, 255, 213) solid; margin-top: 0.2rem;
+    font-weight: bolder;
 }
