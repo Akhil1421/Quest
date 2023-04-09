@@ -16,7 +16,7 @@ const RowTwo = (props)=>{
                     {check && <img src="right-arrow.png" alt="sym"></img>}
                     {check && <img src={mode.images[0]} alt={mode.name}/>}
                 </div>
-                    <center><p style={{color : "crimson"}}>{mode.timeInside}</p></center>
+                    <center><p style={{color : "crimson"}}>{mode.timeInside ? mode.timeInside: 0}</p></center>
             </div>
         )
     })

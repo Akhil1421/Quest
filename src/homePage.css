@@ -18,6 +18,7 @@ h1{
 .questions{
     color: cyan;
     font-family: "Calibri";
+    font-weight: bold;
 }
 .rd-btn>label{
     color: chartreuse;
@@ -36,4 +37,8 @@ button:hover{
     background-color: rgb(51, 1, 32);
     color:rgb(6, 176, 243);
     border: turquoise solid;
+}
+.rd-btn{
+    display: flex;
+    gap: 0.1rem;
 }
