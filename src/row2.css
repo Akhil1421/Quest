@@ -1,6 +1,6 @@
 img{
     max-width: 2rem;
-    max-height: 3rem;
+    max-height: 2.4rem;
 }
 
 .row2{
@@ -18,7 +18,7 @@ img{
 }
 .full{
     display: grid;
-    grid-template: 7rem/1fr;
+    grid-template: 8rem/1fr;
     place-content: center;
     border: rgb(0, 255, 213) solid;
 }
