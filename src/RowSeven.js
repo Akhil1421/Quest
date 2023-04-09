@@ -22,9 +22,8 @@ const RowSeventh = (props)=>{
         //img contains service of that mode
         let allServices = ["Ordinary", "Express Non-AC", "Express AC"]
         return (
-            <div className="service" key={`Serv${index}`} style={{display: "grid", 
-            placeContent: "center", background : colors[index],color : "crimson", height: "7rem",
-            border: "rgb(0, 255, 213) solid"}}>
+            <div className="insideFull other" key={`Serv${index}`} style={{display: "grid", 
+            placeContent: "center", background : colors[index],color : "crimson"}}>
 
                 <div className="logos">
                     {img!=="" && <img src="sitting.png" alt="photoS" style={{height: "4rem", width: "4rem"}}/>}

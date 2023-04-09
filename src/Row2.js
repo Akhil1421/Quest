@@ -11,7 +11,7 @@ const RowTwo = (props)=>{
         let check = (mode.transfers===0||mode.transfers===undefined) ? false : true 
         let colors = ["#e9d1cf", "#e6e8b2", "#c4daae", "#dad6f5", "#cde2e7"]
         return (
-            <div className="full" key={`img${index}`} style={{backgroundColor : colors[index], color : "crimson"}}>
+            <div className="insideFull" key={`img${index}`} style={{backgroundColor : colors[index], color : "crimson"}}>
                     
                     {check && <div style={{display : "flex", justifyContent: "center", alignItems: "center"}}>
                         <p>{mode.transfers} transfers</p></div>} {/*display transfer only if there are any*/}

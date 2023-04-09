@@ -28,15 +28,14 @@ const RowSixth = (props)=>{
         }
         
         return (
-            <div className="crowd" key={`Crowd${index}`} style={{display: "grid", 
-                placeContent: "center", background : colors[index], color : "crimson", height: "7rem",
-                border: "rgb(0, 255, 213) solid"}}> 
+            <div className="insideFull other" key={`Crowd${index}`} style={{display: "grid", 
+                placeContent: "center", background : colors[index], color : "crimson"}}> 
                 <div className="logos">
                     {image!=="" && <img src={image} alt="photoS"/>}
                     {mode.crowd===4 && <img src={images[1]} alt="standing"></img>}
                 </div>
                 <div>
-                    <center>    {crowds[mode.crowd-1]}   </center>
+                    <center>{crowds[mode.crowd-1]}</center>
                 </div>
             </div>
         )
