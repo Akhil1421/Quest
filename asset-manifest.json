@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Quest/static/css/main.a66be5ad.css",
+    "main.js": "/Quest/static/js/main.9a90a9cf.js",
+    "index.html": "/Quest/index.html",
+    "main.a66be5ad.css.map": "/Quest/static/css/main.a66be5ad.css.map",
+    "main.9a90a9cf.js.map": "/Quest/static/js/main.9a90a9cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a66be5ad.css",
+    "static/js/main.9a90a9cf.js"
+  ]
+}
