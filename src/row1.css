@@ -37,18 +37,18 @@
 
 @media screen and (max-width: 480px) {
     .full{
-        grid-template: 3.5rem/1fr;
+        grid-template: 3.65rem/1fr;
         font-size: 0.35rem;
         font-size: 0.6rem;
     }
     .insideFull{
-        height: 3.5rem;
+        height: 3.65rem;
         font-size: 0.5rem;
     }
 
     .row{
         display: grid;
-        grid-template: 3.5rem / 1fr 1fr 1fr 1fr 1fr;
+        grid-template: 3.65rem / 1fr 1fr 1fr 1fr 1fr;
         gap: 0.2rem;
     }
     /* img{
