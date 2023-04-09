@@ -1,12 +1,39 @@
+h1{
+    color :#1cb807;
+}
 .home{
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap : 2rem;
+    color: aliceblue;
 }
 
 .btns{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
+}
+
+.questions{
+    color: cyan;
+    font-family: "Calibri";
+}
+.rd-btn>label{
+    color: chartreuse;
+    font-weight: bold;
+}
+button{
+    background-color: #a52a2a;
+    color : rgb(253, 249, 17);
+    width : 6rem;
+    font-size: large;
+    cursor: pointer;
+    border: #1cb807 solid;
+    border-radius: 0.3rem;
+}
+button:hover{
+    background-color: rgb(51, 1, 32);
+    color:rgb(6, 176, 243);
+    border: turquoise solid;
 }
